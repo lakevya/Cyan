@@ -27,6 +27,9 @@ Huge thanks to all the contributors of this project!
 */
 
 @import url(https://dablulite.github.io/Cyan/import.css);
+
+@import url(https://dablulite.github.io/Cyan/Addons/CyanWin10Titlebar.css);
+
 :root {
 	--cyan-background-primary: hsla(0deg 0% var(--cyan-background-lightness) / 40%);
 	--cyan-elevation-shadow: 0 0 0 1px rgba(180,180,180,.4), 0 2px 10px 0 rgb(0 0 0 / 60%);
@@ -50,55 +53,3 @@ Huge thanks to all the contributors of this project!
     --cyan-background-hue: 205deg;
     --cyan-tint-visibility: 100%;
 }
-
-#app-mount .winButton-3UMjdg > svg {
-    background-image: none !important;
-}
-#app-mount .winButton-3UMjdg > svg > * {
-    fill: currentColor !important;
-    display: -webkit-box !important;
-    transform: scale(1.3);
-    transform-origin: center;
-}
-#app-mount .winButtonMinMax-3RsPUg:nth-of-type(3) > svg > * {
-    fill: transparent !important;
-}
-#app-mount .winButton-3UMjdg {
-    order: unset !important;
-    margin-top: calc(9px + (var(--window-margin) * 2px)) !important;
-    height: 38px !important;
-    width: 54px !important;
-    margin-left: 5px !important;
-    border-radius: 8px;
-    transition: .2s;
-    z-index: +5;
-}
-.winButtonClose-3Q8ZH5 {
-    margin-left: 5px !important;
-    margin-right: calc(5px + (var(--window-margin) * 2px)) !important;
-}
-#app-mount .winButton-3UMjdg:hover {
-    background-color: var(--cyan-background-primary) !important;
-    box-shadow: var(--cyan-elevation-shadow);
-}
-#app-mount .typeWindows-2-g3UY {
-    justify-content: end !important;
-}
-.title-31SJ6t, .container-ZMc96U {
-    padding-right: calc((54px * 3) + 20px);
-    -webkit-app-region: no-drag !important;
-}
-.platform-win .container-1eFtFS::before, .platform-osx .container-1eFtFS::before {
-    height: calc((100% - ((var(--window-margin) * 1px)) * 2)) !important;
-}
-.platform-win #app-mount .guilds-2JjMmN {
-    margin-top: calc(var(--window-margin) * 1px) !important;
-    height: calc((100% - ((var(--window-margin) * 1px)) * 2)) !important;
-}
-.platform-win .sidebar-1tnWFu {
-    margin-top: calc(var(--window-margin) * 1px) !important;
-}
-#customcss-tab {
-    padding-right: calc(54px*2.5);
-}
-
