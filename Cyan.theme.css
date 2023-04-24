@@ -40,7 +40,7 @@ Huge thanks to all the contributors of this project!
 	--cyan-status-mask-background: var(--profile-body-background-color);
 }
 
-@import url(https://dablulite.github.io/Cyan/Addons/CyanWin10Titlebar.css);
+
 :root {
     --cyan-accent-color: #5598b4;
     --cyan-background-img: url(https://i.pinimg.com/564x/af/12/a3/af12a36d556187a9a7ae9ad808ddedc4.jpg);
@@ -102,28 +102,3 @@ Huge thanks to all the contributors of this project!
     padding-right: calc(54px*2.5);
 }
 
-.platform-win .chat-2ZfjoI,
-.platform-osx .chat-2ZfjoI,
-.platform-win .container-2cd8Mz,
-.platform-osx .container-2cd8Mz,
-.platform-win .applicationStore-2nk7Lo,
-.platform-osx .applicationStore-2nk7Lo,
-.platform-win .noChannel-1GDIAZ,
-.platform-osx .noChannel-1GDIAZ,
-.platform-win .pageWrapper-2PwDoS,
-.platform-osx .pageWrapper-2PwDoS {
-    margin-top: calc(var(--window-margin) * 1px) !important;
-}
-#app-mount .app-2CXKsg .guilds-2JjMmN {
-    margin-top: calc((var(--window-margin) * 1px) + 60px) !important;
-    height: calc((100% - ((var(--window-margin) * 1px)) * 2) - 60px) !important;
-}
-#app-mount .sidebar-1tnWFu {
-    margin-top: calc((var(--window-margin) * 1px) + 60px) !important;
-}
-.platform-win .container-1eFtFS::before {
-    height: calc((100% - ((var(--window-margin) * 1px)) * 2) - 60px) !important;
-}
-.title-31SJ6t, .container-ZMc96U {
-    padding-right: 8px !important;
-}
