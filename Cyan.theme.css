@@ -53,3 +53,12 @@ Huge thanks to all the contributors of this project!
     --cyan-background-hue: 205deg;
     --cyan-tint-visibility: 100%;
 }
+
+.panels-3wFtMD {
+    order: -1;
+    background-color: transparent;
+    border-radius: 0;
+    box-shadow: none;
+    margin: 0;
+    padding: calc(var(--window-margin) * 1px);
+}
