@@ -45,7 +45,7 @@ Huge thanks to all the contributors of this project!
 
 :root {
     --cyan-accent-color: #5598b4;
-    --cyan-background-img: url(https://i.pinimg.com/564x/af/12/a3/af12a36d556187a9a7ae9ad808ddedc4.jpg);
+    --cyan-background-img: url(https://i.pinimg.com/originals/c6/d5/3e/c6d53ea1573fb7adbd9486c38fbb6ef9.jpg);
     --cyan-elevation-shadow: 0 0 0 1.5px rgba(180,180,180,.4), 0 2px 10px 0 rgb(0 0 0 / 60%);
     --cyan-background-primary: hsla(var(--cyan-background-hue) var(--cyan-tint-visibility) var(--cyan-background-lightness) / 40%);
     --cyan-blur-radius: 10px;
